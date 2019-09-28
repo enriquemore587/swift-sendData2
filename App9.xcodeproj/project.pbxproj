@@ -12,6 +12,9 @@
 		D685A11E233E44AB0064AE40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D685A11C233E44AB0064AE40 /* Main.storyboard */; };
 		D685A120233E44AE0064AE40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D685A11F233E44AE0064AE40 /* Assets.xcassets */; };
 		D685A123233E44AE0064AE40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D685A121233E44AE0064AE40 /* LaunchScreen.storyboard */; };
+		D685A12B233E46160064AE40 /* Alumno.swift in Sources */ = {isa = PBXBuildFile; fileRef = D685A12A233E46160064AE40 /* Alumno.swift */; };
+		D685A12D233E46290064AE40 /* Profesor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D685A12C233E46290064AE40 /* Profesor.swift */; };
+		D685A12F233E47B00064AE40 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D685A12E233E47B00064AE40 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		D685A11F233E44AE0064AE40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D685A122233E44AE0064AE40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D685A124233E44AE0064AE40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D685A12A233E46160064AE40 /* Alumno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alumno.swift; sourceTree = "<group>"; };
+		D685A12C233E46290064AE40 /* Profesor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profesor.swift; sourceTree = "<group>"; };
+		D685A12E233E47B00064AE40 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				D685A11F233E44AE0064AE40 /* Assets.xcassets */,
 				D685A121233E44AE0064AE40 /* LaunchScreen.storyboard */,
 				D685A124233E44AE0064AE40 /* Info.plist */,
+				D685A12A233E46160064AE40 /* Alumno.swift */,
+				D685A12C233E46290064AE40 /* Profesor.swift */,
+				D685A12E233E47B00064AE40 /* SecondViewController.swift */,
 			);
 			path = App9;
 			sourceTree = "<group>";
@@ -136,6 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D685A11B233E44AB0064AE40 /* ViewController.swift in Sources */,
+				D685A12D233E46290064AE40 /* Profesor.swift in Sources */,
+				D685A12B233E46160064AE40 /* Alumno.swift in Sources */,
+				D685A12F233E47B00064AE40 /* SecondViewController.swift in Sources */,
 				D685A119233E44AB0064AE40 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
